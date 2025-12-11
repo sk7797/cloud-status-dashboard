@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Auth Service",
+    "status": "Healthy",
+    "environment": "Production",
+    "region": "us-east-1",
+    "incidents": 0,
+    "lastDeployment": "2025-11-30 14:22 UTC"
+  },
+  {
+    "id": 2,
+    "name": "Payments API",
+    "status": "Degraded",
+    "environment": "Production",
+    "region": "us-west-2",
+    "incidents": 2,
+    "lastDeployment": "2025-11-29 09:10 UTC"
+  },
+  {
+    "id": 3,
+    "name": "Reporting Service",
+    "status": "Down",
+    "environment": "Staging",
+    "region": "ca-central-1",
+    "incidents": 1,
+    "lastDeployment": "2025-11-28 18:45 UTC"
+  }
+]

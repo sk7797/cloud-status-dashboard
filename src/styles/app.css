@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.app-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.filters {
+  margin: 1.5rem 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  border: 1px solid #64748b;
+  background: transparent;
+  color: #e5e7eb;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.filter-btn.active {
+  background: #38bdf8;
+  border-color: #38bdf8;
+  color: #0f172a;
+}
+
+.service-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.service-card {
+  background: #020617;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #1e293b;
+}
+
+.service-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.status-badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.status-healthy {
+  background: #22c55e33;
+  color: #4ade80;
+}
+
+.status-degraded {
+  background: #f9731633;
+  color: #fdba74;
+}
+
+.status-down {
+  background: #ef444433;
+  color: #fca5a5;
+}
